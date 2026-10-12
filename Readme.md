@@ -12,6 +12,7 @@
   <img src="https://komarev.com/ghpvc/?username=mrajaysingh&label=PLAYER%20VIEWS&color=00ff9c&labelColor=0d1117&style=for-the-badge" />
   <img src="https://img.shields.io/github/followers/mrajaysingh?style=for-the-badge&logo=github&color=ff2e63&labelColor=0d1117" />
   <img src="https://img.shields.io/github/stars/mrajaysingh?style=for-the-badge&logo=github&color=00ff9c&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fmrajaysingh&query=%24.public_repos&label=TOTAL%20REPOS&style=for-the-badge&logo=github&color=ff2e63&labelColor=0d1117" />
 </p>
 
 <p align="center">
@@ -21,36 +22,19 @@
 
 ---
 
-<!-- 🎌 ANIME GIF: replace the src below with your own Giphy/Tenor GIF link (right-click GIF → copy image address) -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/mfauzirh/mfauzirh/main/assets/images/herobanner.gif" width="100%" alt="Anime GIF" />
 </p>
 
 ---
 
+<h1 align="center">Hey 👋 What's Up?</h1>
+
 ## 🎮 Player Card
 
-```yaml
-player:      Ajay Singh
-handle:      mrajaysingh
-class:       [Cyber Security Enthusiast, Cloud Engineer]
-location:    India 🇮🇳
-guild:       Open Source
-loadout:
-  primary:   AWS ☁️ / GCP ☁️
-  support:   CI/CD ⚙️ / Backend / Frontend
-  special:   Cyber Security 🛡️
-current_quest:
-  - Hardening cloud infrastructure
-  - Automating deployments with CI/CD
-  - Sharpening offensive & defensive security skills
-stats:
-  HP:        ████████████████████ 100%
-  XP:        ██████████████░░░░░░  70%  # next level loading...
-  SECURITY:  ██████████████████░░  90%
-  CLOUD:     ████████████████░░░░  80%
-  DEVOPS:    ███████████████░░░░░  75%
-```
+<p align="center">
+  <img src="./player-card.svg" width="100%" alt="Animated player card" />
+</p>
 
 ---
 
@@ -66,12 +50,9 @@ stats:
 
 ## 🎧 Now Playing
 
-<!--
-  SPOTIFY SETUP (1 min):
-  1. Go to https://spotify-github-profile.kittinunf.com/ and log in with Spotify
-  2. Copy the generated image URL and paste it below, replacing PASTE_YOUR_SPOTIFY_URL_HERE
-  (Make sure the theme is dark, e.g. add &background_color=0d1117&color=00ff9c if supported)
--->
+<p align="center">
+  <img src="./now-playing.svg" width="100%" alt="Animated now playing" />
+</p>
 <p align="center">
   <a href="https://spotify-github-profile.kittinunf.com/api/view?uid=31huuzwfothern64cglk6sztau34&redirect=true">
     <img src="https://spotify-github-profile.kittinunf.com/api/view?uid=31huuzwfothern64cglk6sztau34&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=true&hide_remaster=true&bar_color=00ff9c&bar_color_cover=false" width="460" alt="Spotify Now Playing" />
@@ -98,14 +79,22 @@ stats:
 ## 🔥 Battle Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mrajaysingh&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00ff9c&icon_color=ff2e63&text_color=c9d1d9&ring_color=00ff9c&count_private=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mrajaysingh&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=00ff9c&icon_color=ff2e63&text_color=c9d1d9&ring_color=00ff9c&count_private=true" />
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrajaysingh&layout=compact&hide_border=true&bg_color=0d1117&title_color=00ff9c&text_color=c9d1d9" />
 </p>
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=mrajaysingh&hide_border=true&background=0d1117&ring=00ff9c&fire=ff2e63&currStreakNum=00ff9c&sideNums=c9d1d9&currStreakLabel=00ff9c&sideLabels=ff2e63&dates=8b949e" />
 </p>
+
+---
+
+## 📈 Commit Graphs
+
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mrajaysingh&bg_color=0d1117&color=00ff9c&line=ff2e63&point_color=ffffff&area=true&area_color=00ff9c&hide_border=true&custom_title=Quest%20Log%20-%20Contribution%20Graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mrajaysingh&bg_color=0d1117&color=00ff9c&line=ff2e63&point_color=ffffff&area=true&area_color=00ff9c&hide_border=true&custom_title=Quest%20Log%20-%20Commit%20Graph" width="100%" />
+</p>
+<p align="center">
+  <img src="https://ghchart.rshah.org/00ff9c/mrajaysingh" width="95%" alt="Commit calendar" />
 </p>
 
 ---
@@ -117,6 +106,18 @@ stats:
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrajaysingh/mrajaysingh/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrajaysingh/mrajaysingh/output/github-snake.svg" />
     <img alt="Contribution snake" src="https://raw.githubusercontent.com/mrajaysingh/mrajaysingh/output/github-snake-dark.svg" />
+  </picture>
+</p>
+
+---
+
+## 👻 Pac-Man Commit Graph
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrajaysingh/mrajaysingh/output/pacman-contribution-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrajaysingh/mrajaysingh/output/pacman-contribution-graph.svg" />
+    <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/mrajaysingh/mrajaysingh/output/pacman-contribution-graph-dark.svg" />
   </picture>
 </p>
 

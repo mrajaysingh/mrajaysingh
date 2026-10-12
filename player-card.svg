@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="450" viewBox="0 0 840 450" font-family="'Courier New', Consolas, monospace">
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00ff9c"/>
+      <stop offset="0.5" stop-color="#ff2e63"/>
+      <stop offset="1" stop-color="#00ff9c"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="barG" x1="0" x2="1">
+      <stop offset="0" stop-color="#00ff9c"/>
+      <stop offset="1" stop-color="#00c2ff"/>
+    </linearGradient>
+    <linearGradient id="barR" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff2e63"/>
+      <stop offset="1" stop-color="#ff9a3c"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#00ff9c" opacity="0.05"/>
+    </pattern>
+    <clipPath id="c1"><rect x="40" y="70" width="0" height="26"><animate attributeName="width" from="0" to="760" dur="1.6s" begin="0.3s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="40" y="100" width="0" height="26"><animate attributeName="width" from="0" to="760" dur="1.6s" begin="1.2s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="40" y="130" width="0" height="26"><animate attributeName="width" from="0" to="760" dur="1.6s" begin="2.1s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="40" y="160" width="0" height="26"><animate attributeName="width" from="0" to="760" dur="1.6s" begin="3s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <!-- frame -->
+  <rect x="3" y="3" width="834" height="444" rx="14" fill="#0d1117" stroke="url(#border)" stroke-width="3"/>
+  <rect x="3" y="3" width="834" height="444" rx="14" fill="url(#scan)"/>
+
+  <!-- floating particles -->
+  <g fill="#00ff9c" opacity="0.5">
+    <circle cx="90" cy="420" r="2"><animate attributeName="cy" values="430;20" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="430" r="1.5" fill="#ff2e63"><animate attributeName="cy" values="430;20" dur="9s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="9s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="430" r="2"><animate attributeName="cy" values="430;20" dur="8s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="740" cy="430" r="1.5" fill="#ff2e63"><animate attributeName="cy" values="430;20" dur="10s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="10s" begin="0.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- title bar -->
+  <g filter="url(#glow)">
+    <text x="40" y="45" font-size="20" font-weight="bold" fill="#00ff9c">&#9658; PLAYER 1 :: AJAY SINGH
+      <animate attributeName="opacity" values="1;0.55;1" dur="2.5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <text x="800" y="45" font-size="13" fill="#ff2e63" text-anchor="end">LVL 99
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </text>
+  <line x1="40" y1="56" x2="800" y2="56" stroke="#00ff9c" stroke-opacity="0.35"/>
+
+  <!-- typed lines -->
+  <g clip-path="url(#c1)"><text x="40" y="90" font-size="16" fill="#c9d1d9">&gt; handle   : <tspan fill="#00ff9c">mrajaysingh</tspan></text></g>
+  <g clip-path="url(#c2)"><text x="40" y="120" font-size="16" fill="#c9d1d9">&gt; class    : <tspan fill="#ff2e63">Cyber Security Enthusiast</tspan> + <tspan fill="#00c2ff">Cloud Engineer</tspan></text></g>
+  <g clip-path="url(#c3)"><text x="40" y="150" font-size="16" fill="#c9d1d9">&gt; loadout  : <tspan fill="#ffd166">AWS | GCP | CI/CD | Backend | Frontend</tspan></text></g>
+  <g clip-path="url(#c4)"><text x="40" y="180" font-size="16" fill="#c9d1d9">&gt; quest    : <tspan fill="#00ff9c">Hardening clouds &amp; shipping secure code</tspan></text></g>
+  <rect x="540" y="168" width="10" height="16" fill="#00ff9c">
+    <animate attributeName="opacity" values="0;0;1;0" dur="0.9s" begin="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- stat bars -->
+  <g font-size="14" fill="#c9d1d9">
+    <!-- HP -->
+    <text x="40" y="236">HP</text>
+    <rect x="170" y="222" width="560" height="16" rx="8" fill="#161b22" stroke="#30363d"/>
+    <rect x="170" y="222" width="0" height="16" rx="8" fill="url(#barG)" filter="url(#glow)">
+      <animate attributeName="width" from="0" to="560" dur="1.8s" begin="0.5s" fill="freeze"/>
+    </rect>
+    <text x="745" y="236" fill="#00ff9c">100%</text>
+
+    <!-- XP -->
+    <text x="40" y="268">XP</text>
+    <rect x="170" y="254" width="560" height="16" rx="8" fill="#161b22" stroke="#30363d"/>
+    <rect x="170" y="254" width="0" height="16" rx="8" fill="url(#barR)" filter="url(#glow)">
+      <animate attributeName="width" from="0" to="392" dur="1.8s" begin="0.8s" fill="freeze"/>
+    </rect>
+    <text x="745" y="268" fill="#ff2e63">70%</text>
+
+    <!-- Security -->
+    <text x="40" y="300">SECURITY</text>
+    <rect x="170" y="286" width="560" height="16" rx="8" fill="#161b22" stroke="#30363d"/>
+    <rect x="170" y="286" width="0" height="16" rx="8" fill="url(#barG)" filter="url(#glow)">
+      <animate attributeName="width" from="0" to="504" dur="2s" begin="1.1s" fill="freeze"/>
+    </rect>
+    <text x="745" y="300" fill="#00ff9c">90%</text>
+
+    <!-- Cloud -->
+    <text x="40" y="332">CLOUD</text>
+    <rect x="170" y="318" width="560" height="16" rx="8" fill="#161b22" stroke="#30363d"/>
+    <rect x="170" y="318" width="0" height="16" rx="8" fill="url(#barG)" filter="url(#glow)">
+      <animate attributeName="width" from="0" to="448" dur="2s" begin="1.4s" fill="freeze"/>
+    </rect>
+    <text x="745" y="332" fill="#00c2ff">80%</text>
+
+    <!-- DevOps -->
+    <text x="40" y="364">DEVOPS</text>
+    <rect x="170" y="350" width="560" height="16" rx="8" fill="#161b22" stroke="#30363d"/>
+    <rect x="170" y="350" width="0" height="16" rx="8" fill="url(#barR)" filter="url(#glow)">
+      <animate attributeName="width" from="0" to="420" dur="2s" begin="1.7s" fill="freeze"/>
+    </rect>
+    <text x="745" y="364" fill="#ffd166">75%</text>
+  </g>
+
+  <!-- shimmer sweep over bars -->
+  <rect x="-100" y="218" width="80" height="154" fill="#ffffff" opacity="0.07" transform="skewX(-20)">
+    <animate attributeName="x" values="-100;900" dur="3.5s" begin="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- footer -->
+  <line x1="40" y1="392" x2="800" y2="392" stroke="#00ff9c" stroke-opacity="0.35"/>
+  <text x="420" y="424" font-size="14" fill="#ff2e63" text-anchor="middle" filter="url(#glow)">PRESS START TO CONTINUE
+    <animate attributeName="opacity" values="1;0.1;1" dur="1.4s" repeatCount="indefinite"/>
+  </text>
+</svg>
