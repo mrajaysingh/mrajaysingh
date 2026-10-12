@@ -67,8 +67,7 @@
   <img src="./metrics-main.svg" width="100%" />
 </p>
 <p align="center">
-  <img src="./metrics-isocalendar.svg" width="49%" />
-  <img src="./metrics-languages.svg" width="49%" />
+  <img src="./metrics-languages.svg" width="100%" />
 </p>
 <p align="center">
   <img src="./metrics-habits.svg" width="100%" />
@@ -91,7 +90,7 @@
 ## 📈 Commit Graphs
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/00ff9c/mrajaysingh" width="95%" alt="Commit calendar" />
+  <img src="./metrics-isocalendar.svg" width="100%" alt="3D commit calendar" />
 </p>
 
 ---
