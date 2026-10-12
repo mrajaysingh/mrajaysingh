@@ -54,8 +54,8 @@
   <img src="./now-playing.svg" width="100%" alt="Animated now playing" />
 </p>
 <p align="center">
-  <a href="https://spotify-github-profile.kittinunf.com/api/view?uid=31huuzwfothern64cglk6sztau34&redirect=true">
-    <img src="https://spotify-github-profile.kittinunf.com/api/view?uid=31huuzwfothern64cglk6sztau34&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=true&hide_remaster=true&bar_color=00ff9c&bar_color_cover=false" width="460" alt="Spotify Now Playing" />
+  <a href="https://open.spotify.com/user/31huuzwfothern64cglk6sztau34">
+    <img src="https://img.shields.io/badge/Listen%20on-Spotify-0d1117?style=for-the-badge&logo=spotify&logoColor=00ff9c&color=00ff9c&labelColor=0d1117" alt="Open my Spotify" />
   </a>
 </p>
 
@@ -91,9 +91,6 @@
 ## 📈 Commit Graphs
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mrajaysingh&bg_color=0d1117&color=00ff9c&line=ff2e63&point_color=ffffff&area=true&area_color=00ff9c&hide_border=true&custom_title=Quest%20Log%20-%20Commit%20Graph" width="100%" />
-</p>
-<p align="center">
   <img src="https://ghchart.rshah.org/00ff9c/mrajaysingh" width="95%" alt="Commit calendar" />
 </p>
 
@@ -105,19 +102,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrajaysingh/mrajaysingh/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrajaysingh/mrajaysingh/output/github-snake.svg" />
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/mrajaysingh/mrajaysingh/output/github-snake-dark.svg" />
-  </picture>
-</p>
-
----
-
-## 👻 Pac-Man Commit Graph
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrajaysingh/mrajaysingh/output/pacman-contribution-graph-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrajaysingh/mrajaysingh/output/pacman-contribution-graph.svg" />
-    <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/mrajaysingh/mrajaysingh/output/pacman-contribution-graph-dark.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/mrajaysingh/mrajaysingh/output/github-snake-dark.svg" />
   </picture>
 </p>
 
@@ -126,7 +111,7 @@
 ## 🏆 Achievements
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mrajaysingh&theme=onedark&no-frame=true&no-bg=true&row=1&column=7" />
+  <img src="./metrics-achievements.svg" width="100%" />
 </p>
 
 <p align="center">
